@@ -109,7 +109,7 @@ Após clonar/baixar o projeto, abra um terminal, navegue até a pasta /server e 
 Após isso, você pode rodar a aplicação em modo de desenvolvimento com o seguinte comando:
 
     npm run dev
-A aplicação irá rodar no endereço [http://localhost:3000/].
+A aplicação irá rodar no endereço [https://jobsmentors-fzdv.onrender.com]
 
 <h2 id= Dev>Desenvolvedores</h2>
 <table>
