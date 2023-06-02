@@ -228,14 +228,16 @@ function Projects() {
                   {t('app.projects.btnsearch')}
                 </button>
               </div>
-              {freelaSkill.map((freelancer, index) => (
-                <FreelancerSkillCards
-                  key={index}
-                  image={freelancer.img}
-                  name={freelancer.name}
-                  skill={freelancer.hard_skills}
-                />
-              ))}
+              <div className="md:items-center, md:justify-certer flex flex-col items-center justify-center gap-2  py-3 md:flex-row">
+                {freelaSkill.map((freelancer, index) => (
+                  <FreelancerSkillCards
+                    key={index}
+                    image={freelancer.img}
+                    name={freelancer.name}
+                    skill={freelancer.hard_skills}
+                  />
+                ))}
+              </div>
             </div>
             <div className="flex flex-row items-center justify-evenly gap-16 pb-6 pt-10">
               <div className="">
